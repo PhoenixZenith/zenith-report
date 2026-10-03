@@ -16,8 +16,6 @@ Unofficial, not affiliated with Bungie.
 3. Windows might say "Windows protected your PC" because the installer isn't signed. Click
    **More info**, then **Run anyway**.
 
-You don't need your own Bungie API key. One is built in.
-
 ## Updates
 
 When a new version is out, an **Update** button shows up in the title bar. Click it and the app
@@ -26,7 +24,6 @@ and nothing downloads until you click.
 
 ## Using it
 
-- Run Destiny 2 in **borderless** or **windowed fullscreen**. Exclusive fullscreen can't be read.
 - Keep the game on one monitor and the app on another. The app never takes focus from the game.
 - When a Trials match starts loading, press **F8** (or click Scan). The app opens the roster with
   your Roster key (U by default), hovers each player, closes it again and puts your cursor back.
@@ -44,11 +41,14 @@ instead of guessing.
 
 To read the roster the app presses your Roster key and moves the mouse over the player list, the
 same as you would by hand, and only while Destiny is the focused window. It doesn't read or change
-game memory, hook into the game or touch its network traffic. All the stats come from public APIs
-(Bungie.net, Trials Report and DestinyTracker). Still, it's a third party tool, so use it at your
-own risk.
+game memory, hook into the game or touch its network traffic. Still, it's a third party tool, so
+use it at your own risk.
+
+## Your data
+
+Settings, searches and recent lobbies stay on your PC, in `%APPDATA%\Zenith Report`. The only
+thing that goes out is the lookups themselves, to Bungie.net, Trials Report and DestinyTracker.
 
 ## Problems
 
-Settings, the log and recent lobbies are in `%APPDATA%\Zenith Report`. If something goes wrong,
-open an issue here and attach `app.log` from that folder. It doesn't have your API key in it.
+If something goes wrong, open an issue here and attach `app.log` from `%APPDATA%\Zenith Report`.
