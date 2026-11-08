@@ -7,7 +7,7 @@ monitor: Elo, flawless runs, K/D, loadouts, fireteams, head to head and a win ch
 When the board is empty it shows this week in Trials instead: maps, the countdown, rewards and
 what weapons people are using.
 
-Unofficial, not affiliated with Bungie.
+Unofficial, not affiliated with Bungie, Made for me and my clan, Hiiii zenith frens.
 
 ## Install
 
@@ -37,18 +37,14 @@ If you changed the Roster keybind in game, change it in Settings too.
 If a name can't be read with certainty, the app flags it and lets you pick from suggestions
 instead of guessing.
 
-## About the game input
+## About game input
 
 To read the roster the app presses your Roster key and moves the mouse over the player list, the
 same as you would by hand, and only while Destiny is the focused window. It doesn't read or change
 game memory, hook into the game or touch its network traffic. Still, it's a third party tool, so
 use it at your own risk.
 
-## Your data
+## data
 
 Settings, searches and recent lobbies stay on your PC, in `%APPDATA%\Zenith Report`. The only
 thing that goes out is the lookups themselves, to Bungie.net, Trials Report and DestinyTracker.
-
-## Problems
-
-If something goes wrong, open an issue here and attach `app.log` from `%APPDATA%\Zenith Report`.
